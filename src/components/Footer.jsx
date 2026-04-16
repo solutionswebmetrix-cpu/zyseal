@@ -100,12 +100,12 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="mt-4 p-6 glass-dark rounded-2xl border-white/5 flex items-center gap-4">
+            {/* <div className="mt-4 p-6 glass-dark rounded-2xl border-white/5 flex items-center gap-4">
               <ShieldCheck className="text-brand-red" size={24} />
               <div>
                 <div className="text-[10px] font-black text-white uppercase tracking-widest">Certified Quality</div>
                 <div className="text-xs text-white/40">ISO 9001:2015 Registered</div>
-              </div>
+              </div> */}
             </div>
           </div>
 
