@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import bannerVideo from '../assets/Banner.mp4';
 
 const Hero = () => {
   const titleLines = [
@@ -51,7 +50,7 @@ const Hero = () => {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src={bannerVideo} type="video/mp4" />
+          <source src="/Banner.mp4" type="video/mp4" />
         </video>
 
         <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/60 to-transparent" />
